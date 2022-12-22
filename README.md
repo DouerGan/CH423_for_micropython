@@ -8,4 +8,4 @@ Therefore, we cannot communicate with MCU hardware I2C directly (ACK cannot answ
 Does this mean that if we use CH423S, we lose 2 IO's and cannot use the I2C bus?<br>
 No, we can use an analog switch that shares a clock (SCL) with the I2C bus, and use an analog switch that acts as IO_MUX for data (SDA).<br>
 So we use 3 MCU IO to achieve an I2C bus and 24 IO!<br>
-
+![alt](https://github.com/DouerGan/CH423_for_micropython/blob/main/CH423_SCH.PNG)

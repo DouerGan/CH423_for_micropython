@@ -2,3 +2,4 @@
 Uses micropython's CH423S-IO extension chip<br>
 Note: I/O driving capability of CH423S is actually found to be weak. MOS or BJT should be used for long line or large current<br>
 ## imprint
+CH423S supports digital tube dynamic driver. I want to divide the dynamic driver library and the general IO driver library into two to do, and the dynamic driver library is tentative
